@@ -1,0 +1,180 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-title {
+    margin: 0;
+    padding: 10px 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: green;
+    color: #fff;
+}
+
+.navbar {
+    font-family: 'Courgette', cursive;
+    background-color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.navlist {
+    margin: 0 0 0 20px;
+    padding: 0;
+}
+
+.navitem {
+    display: inline-block;
+}
+
+a {
+    color: #343434;
+}
+
+a:hover, a:focus {
+    color: green;
+}
+
+a:focus {
+    outline: none;
+}
+
+.navlink a {
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.navlink.active {
+    box-shadow: inset 0 -3px green;
+}
+
+.navbar-search {
+    float: right;
+    margin-right: 20px;
+    padding: 0;
+    line-height: 38px;
+}
+
+#navbar-search-input {
+    padding: 4px;
+    font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+
+#navbar-search-input:focus {
+    outline: none;
+    background-color: #fff;
+}
+
+#navbar-search-button {
+    margin-left: -5px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    color: #343434;
+    cursor: pointer;
+}
+
+#navbar-search-button:hover {
+    color: #319df6;
+}
+
+#navbar-search-button:focus {
+    color: #319df6;
+    outline: none;
+}
+
+.piece-container {
+    margin: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.piece {
+    
+    flex: 0 1 28%;
+    display: flex;
+    margin: 10px;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    background-color: #fff;
+    max-width: 425px;
+}
+
+.piece-blurb {
+    margin: 0px 10px 15px 15px;
+    padding: 0;
+}
+
+.piece-title {
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0;
+}
+
+.piece-content {
+    flex: 1 1 80%;
+}
+
+.piece-content img {
+    padding: 10px;
+    margin: 2px;
+    width: 400px;
+    height: 300px
+}
+
+/***** The CSS styling below is for the home/index page *****/
+
+
+.site-title.home{
+    font-size: 50px;
+    text-align: center;
+}
+
+.navbar.home {
+    text-align: center;
+    font-size: 22px;
+}
+
+.about {
+    margin: 50px;
+}
+
+.about-blurb-title {
+    margin: 0;
+}
+
+.about-pic {
+    margin: 0px 50px 10px 0px;
+    width: 40%;
+    min-width: 300px;
+    max-width: 600px;
+    border: solid;
+    display: inline-block;
+}
+
+.about-blurb {
+    width: 52%;
+    font-size: 1.1em;
+
+    display: inline-block;
+    min-width: 300px;
+    max-width: 1000px;
+    vertical-align: top;
+}
+
+footer {
+    display: block;
+    text-align: center;
+}
+
